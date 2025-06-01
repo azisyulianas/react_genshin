@@ -18,13 +18,13 @@ function App() {
         </div>
         <div className="rounded-md lg:hidden">
           <button className={`justify-end px-4 py-2 text-sm font-medium leading-5 ${!isOpen?'hidden':''} `} onClick={toggleDropdown}
-          type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+          type="button">
             <SvgList>
               <SvgList.HambugerOpen />
             </SvgList>
           </button>
           <button className={`justify-end px-4 py-2 text-sm font-medium leading-5 ${!isOpen?'':'hidden'}`} onClick={toggleDropdown}
-          type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+          type="button">
             <SvgList>
               <SvgList.HambugerClose />
             </SvgList>
